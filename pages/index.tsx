@@ -16,7 +16,7 @@ const App = () => {
     <div className="App">
       <Head>
         <title>
-          Développeur Full Stack - JS | TS | SQL - Galanga Sangol Ramses
+          Développeur Full Stack - Galanga Sangol Ramses
         </title>
         <link rel="canonical" href="https://guillaume-jolibois.fr/" />
       </Head>

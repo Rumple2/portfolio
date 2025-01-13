@@ -73,7 +73,7 @@ const MyProjectsList: ProjectType[] = [
     descriptions: [
       "Site vitrine pour l'entreprise Bahiniba, mettant en avant leurs services et expertise. Développement en Vue.js et Laravel, avec un design moderne basé sur Tailwind CSS. Intégration de fonctionnalités dynamiques pour la gestion de contenu.",
     ],
-    link: 'https://www.bahiniba.com/',
+    link: 'https://www.inthetech.net/',
     github: 'Non disponible',
     gif: bahiniba,
     stacks: ['vue', 'tailwindcss', 'laravel', 'git'],

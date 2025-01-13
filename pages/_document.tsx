@@ -23,7 +23,7 @@ const Document = (): JSX.Element => {
         />
         <meta
           name="description"
-          content="Bonjour, je suis Guillaume Jolibois, un développeur full Stack en Javascript, Typescript et SQL. Venez découvrir ma stack technique, je travaille en contrat ou freelance."
+          content="Bonjour, Galanga Sangol Ramses, un développeur full Stack en Javascript, Typescript et SQL. Venez découvrir ma stack technique, je travaille en contrat ou freelance."
         />
         <link rel="manifest" href="/manifest.json" />
       </Head>
