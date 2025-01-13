@@ -35,7 +35,7 @@ const MyExperiencesList = [
   },
 
   {
-    title: "ESMC GIE - Développeur Full Stack",
+    title: 'ESMC GIE - Développeur Full Stack',
     dateStartMonth: 1,
     dateStartYear: 2024,
     dateEndMonth: 5,
@@ -44,7 +44,7 @@ const MyExperiencesList = [
       "Au sein d'ESMC GIE, j'ai contribué au développement et à l'optimisation de solutions technologiques en tant que développeur fullstack. Mon rôle comprenait :",
       "Développement de prototypes et modules à l'aide des technologies Angular et Spring Boot pour répondre aux besoins spécifiques des projets.",
       "Création d'API robustes en Spring Boot, permettant une communication fluide et sécurisée entre les différents systèmes.",
-      "Gestion et administration des bases de données, avec une expertise sur MySQL, AWS et Docker, pour garantir une architecture performante et évolutive.",
+      'Gestion et administration des bases de données, avec une expertise sur MySQL, AWS et Docker, pour garantir une architecture performante et évolutive.',
       "Ces missions m'ont permis de renforcer mes compétences en développement logiciel et en gestion d'infrastructures cloud, tout en collaborant avec des équipes multidisciplinaires pour atteindre les objectifs de l'entreprise.",
     ],
     projectCreated: [
@@ -68,7 +68,7 @@ const MyExperiencesList = [
   },
 
   {
-    title: "IELAB - Stagiaire en suite Développeur Full-Stack",
+    title: 'IELAB - Stagiaire en suite Développeur Full-Stack',
     dateStartMonth: 7,
     dateStartYear: 2022,
     dateEndMonth: 11,
@@ -77,7 +77,7 @@ const MyExperiencesList = [
       "Au cours de ce stage, j'ai participé à la conception et au développement de solutions logicielles pour répondre à des problématiques variées, notamment :",
       "Logiciel de gestion de tontine : développement d'un système automatisé permettant la gestion efficace des cotisations, des distributions et des membres, avec une interface utilisateur conviviale.",
       "Logiciel de gestion d’hôtel : création d'une solution intégrée pour la gestion des réservations, des chambres, des paiements et du suivi des clients.",
-      "Application de gestion des entrées et sorties : mise en place d'un outil permettant de suivre et d'optimiser les flux des personnes et des ressources."
+      "Application de gestion des entrées et sorties : mise en place d'un outil permettant de suivre et d'optimiser les flux des personnes et des ressources.",
     ],
     projectCreated: [
       {
@@ -110,17 +110,14 @@ const MyExperiencesList = [
     projectCreated: [
       {
         title: 'IABD',
-        link: null,
+        link: '',
         description:
           "Version web de Netflix clonée en React, utilisant l'API TMDB. Axios pour les requêtes et redux pour stocker une liste de films",
       },
-      
     ],
     stacks: [
       'tensorflow',
-      'mongodb'
-    
- 
+      'mongodb',
     ],
   },
 ];

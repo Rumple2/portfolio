@@ -18,6 +18,7 @@ module.exports = {
     'no-console': 'off',
     'import/prefer-default-export': 'off',
     'react/no-unescaped-entities': 0,
+    'linebreak-style': 0,
     'no-underscore-dangle': 'off',
     'react/function-component-definition': 'off',
     'import/order': [

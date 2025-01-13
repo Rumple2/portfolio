@@ -5,8 +5,7 @@ import { footerStyles } from '#styles';
 const Footer = () => {
   return (
     <div className={footerStyles.footerArea}>
-      <p className={footerStyles.footerText}>
-      </p>
+      <p className={footerStyles.footerText}> </p>
     </div>
   );
 };

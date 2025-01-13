@@ -12,14 +12,18 @@ const Home = () => {
           <h1>Galanga Sangol Ramses</h1>
           <h2>Développeur Full Stack</h2>
           <p>
-          Passionné par l'innovation et les technologies, 
-          je suis développeur fullstack avec une expertise en intelligence artificielle et en développement d'applications mobiles et web.
-          Mon parcours académique, marqué par une Licence en architecture logicielle et un Master 2 en Intelligence Artificielle et Big Data, 
-          reflète ma volonté constante de relever des défis complexes et d'apporter des solutions efficaces.
+            Passionné par l'innovation et les technologies, je suis développeur
+            fullstack avec une expertise en intelligence artificielle et en
+            développement d'applications mobiles et web. Mon parcours
+            académique, marqué par une Licence en architecture logicielle et un
+            Master 2 en Intelligence Artificielle et Big Data, reflète ma
+            volonté constante de relever des défis complexes et d'apporter des
+            solutions efficaces.
             <br />
             <br />
-            J'aime créer des solutions innovantes et efficaces qui simplifient les processus complexes,  
-            alliant interfaces intuitives et systèmes backend performants.
+            J'aime créer des solutions innovantes et efficaces qui simplifient
+            les processus complexes, alliant interfaces intuitives et systèmes
+            backend performants.
           </p>
           <div className={homeStyles.homeLogosLinks}>
             <a

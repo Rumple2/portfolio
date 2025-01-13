@@ -8,6 +8,7 @@ import {
 } from '../../public/images';
 
 import { type ProjectType } from '#types';
+
 const MyProjectsList: ProjectType[] = [
   {
     title: 'GGC & Partenaires Web App',
@@ -16,7 +17,7 @@ const MyProjectsList: ProjectType[] = [
     descriptions: [
       "Plateforme de gestion des partenariats et collaborations pour les entreprises. Développement en Flutter avec intégration d'API pour la synchronisation des données, gestion des états avec Redux, et utilisation de MongoDB pour le stockage des données.",
     ],
-    link: null,
+    link: '',
     github: 'Non disponible',
     gif: ggcdesktop,
     stacks: ['flutter', 'api', 'mongodb', 'git'],
@@ -28,7 +29,7 @@ const MyProjectsList: ProjectType[] = [
     descriptions: [
       "Application mobile complémentaire à la plateforme web. Permet de suivre les collaborations en temps réel, avec une interface intuitive développée en Flutter. Intégration d'une base de données MongoDB et gestion des requêtes via API.",
     ],
-    link: null,
+    link: '',
     github: 'Non disponible',
     gif: ggcapp,
     stacks: ['flutter', 'api', 'mongodb', 'git'],
@@ -38,7 +39,7 @@ const MyProjectsList: ProjectType[] = [
     img: esmcgie,
     imgTag: 'ESMC GIE',
     descriptions: [
-      "Plateforme dédiée à une startup spécialisée dans le Web3 et les cryptomonnaies. Application web bilingue (français et anglais) réalisée avec Angular et Spring Boot. Intégration de Tailwind CSS pour un design moderne, et récupération en temps réel des taux de cryptomonnaies via une API externe.",
+      'Plateforme dédiée à une startup spécialisée dans le Web3 et les cryptomonnaies. Application web bilingue (français et anglais) réalisée avec Angular et Spring Boot. Intégration de Tailwind CSS pour un design moderne, et récupération en temps réel des taux de cryptomonnaies via une API externe.',
     ],
     link: 'https://esmcgie.com/',
     github: 'Non disponible',
@@ -103,6 +104,5 @@ const MyProjectsList: ProjectType[] = [
     stacks: ['flutter', 'laravel', 'postman', 'git'],
   },
 ];
-
 
 export default MyProjectsList;

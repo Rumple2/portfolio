@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NodeLogo, SassLogo } from '#svg';
+import { NodeLogo } from '#svg';
 import { type CompetenceType } from '#types';
 
 export const frontCompetences: CompetenceType[] = [
