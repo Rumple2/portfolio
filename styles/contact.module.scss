@@ -1,0 +1,48 @@
+.contactArea {
+  display: flex;
+  min-height: calc(100vh - 50px);
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 5vw auto 5vw;
+  gap: 50px;
+}
+
+.contactContainer {
+  position: relative;
+  gap: 0;
+  width: fit-content;
+  height: auto;
+  // here test
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.phoneNumber {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.descriptionContainer {
+  align-items: flex-start;
+  width: auto;
+
+  > h1 {
+    width: min-content;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contactContainer {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+}

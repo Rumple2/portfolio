@@ -1,0 +1,59 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "dependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20.13.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-scroll": "^1.8.10",
+    "@typescript-eslint/parser": "^7.11.0",
+    "aos": "^2.3.4",
+    "dotenv": "^16.4.5",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "next": "^14.2.22",
+    "postcss": "^8.4.38",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.12.0",
+    "react-scroll": "^1.9.0",
+    "sass": "^1.77.4",
+    "sharp": "^0.32.6",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production next build",
+    "check": "pnpm typescript && pnpm eslint && pnpm build",
+    "dev": "next dev",
+    "eslint": "eslint .",
+    "lint": "next lint",
+    "start": "next start",
+    "typescript": "pnpm tsc --noEmit"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "./index.js",
+  "repository": "https://github.com/Joliwood/Portfolio.git",
+  "author": "Joliwood <jolibois.contact@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "13.3.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  }
+}
